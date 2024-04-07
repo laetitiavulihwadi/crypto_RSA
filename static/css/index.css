@@ -1,0 +1,98 @@
+
+
+
+
+
+form {
+    max-width: 60%;
+    max-height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #336699;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    font-size: 1.5rem;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #beadad;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 100%;
+    background-color:  #917979;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  body {
+    background-color: #f4f4f4; /* Remplacez ceci par la couleur de fond de votre choix */
+  }
+  
+
+  table {
+    border: none;
+    /* border-collapse: collapse; */
+    width: 60%;
+    margin: 0 auto
+    font-size 1.8rem;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1.3rem;
+    /* border-bottom: 1px solid #dddddd; */
+    
+    
+  }
+  
+  th {
+    background-color: #917979;
+    font-weight: bold;
+    
+    
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  .edit{
+    padding: 50px;
+  }
+
+  h1 {
+    color: #336699;
+    
+    font-size: 2rem; /* Taille de la police */
+    text-align: center; /* Alignement du texte */
+    text-transform: uppercase; /* Transformation du texte en majuscules */
+    margin-bottom: 20px; /* Marge en bas du titre */
+    /* Autres styles de votre choix */
+  }
+  .plus{
+    background-color:  #336699;
+  color: white;
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px black;
+
+
+
+  }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/update/{{data[0][0]}}" method="POST">
+
+
+
+            <input type="text" name="Nom"  value="{{data[0][1]}}">
+            <input type="text" name="PostNom"  value="{{data[0][2]}}">
+            
+            <button type="submit" > Modifier</button>
+
+
+
+    </form> 
+
+
+    
+    
+</body>
+</html>

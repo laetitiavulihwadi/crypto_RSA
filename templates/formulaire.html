@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <title>Document</title>
+</head>
+<body>
+<form action="/save_etudiant" method="POST"   >
+    
+Matricule <br>
+<input type="text" name="Matricule" placeholder="e.g AFI12">
+<br>
+Nom <br>
+<input type="text" name="Nom" placeholder="e.g Kambale" >
+<br><br>
+
+PostNom <br>
+<input type="text" name="PostNom" placeholder="e.g Mwenge">
+<br><br>
+
+Date <br>
+<input type="date" name="date" placeholder="e.g 20 mars">
+<br><br>
+submit <br>
+<button type="submit" > Save</button>
+
+<br><br>
+
+
+</form>
+
+
+    
+    
+</body>
+</html>

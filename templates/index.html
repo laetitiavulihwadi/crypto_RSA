@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <title>Mon app</title>
+</head>
+<body>
+    <h1>UNIVERSITE CHRETIENNE BILINGUE DU CONGO</h1>
+    <h1>LISTE DES ETUDIANTS</h1>
+   
+         <a href="/save_etudiant"  class="plus">+ </a> 
+    
+
+        <div classe= "container">
+            <table classe="tableau"   border="1" >
+                <thead>
+                    <tr>
+                        <th> Matricule </th>
+                        <th> Nom </th>
+                        <th>PostNom </th>
+                        <th> Action</th>
+                        
+                      
+                    </tr>
+                </thead>  
+                <tbody> 
+                    
+                    {% for etudiant in   t %}
+                        <tr>
+                        <td>{{etudiant[0]}}</td>
+                        <td>{{etudiant[1]}}</td>
+                        <td>{{etudiant[2]}}</td>
+                       
+                        <td><a href="/ouvrir_update/{{etudiant[0]}}" class="edit">Update</a> 
+                        <a href="/Delete/{{etudiant[0]}}">Delete</a></td>
+                    
+                        </tr>
+                    {% endfor %}
+                   
+                </tbody>
+            </table>
+    
+    
+    
+        </div>
+
+</body>
+</html>
